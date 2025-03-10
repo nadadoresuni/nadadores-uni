@@ -63482,22 +63482,26 @@ export const infoLevels = {
   "title": "La Ruta del Nadador",
   "description": "Descubre la experiencia de superación personal en cada metro de avance y conviértete en un Tiburón Legendario. Cada matrícula es una oportunidad para sumar puntos, subir de nivel y disfrutar de recompensas únicas.",
   "points_system": {
-    "Sabatino": {
+    "1 vez por semana": {
       "points": 1,
       "levels": 1
     },
-    "Interdiario": {
+    "2 veces por semana": {
+      "points": 2,
+      "levels": 2
+    },
+    "3 veces por semana": {
       "points": 3,
       "levels": 3
     },
-    "Diario": {
+    "5 veces por semana": {
       "points": 5,
       "levels": 5
     }
   },
   "categories": [
     {
-      "name": "Tiburoncin Enano",
+      "name": "Tiburoncin Nemo",
       "levels": "0-9",
       "benefits": ["Sin beneficios específicos, pero estás en camino a algo grandioso."],
       "penalty": "Tras 2 meses sin matrícula, bajas 2 niveles, luego 1 nivel por mes."
@@ -63543,10 +63547,9 @@ export const infoLevels = {
       "benefits": [
         "Descuento de 25% en todas las matrículas futuras.",
         "Descuento de 50% en todo el merchandising de Nadadores UNI.",
-        "Amigo Gratis: 6 horas mensuales para invitar a un amigo a clase.",
+        "Amigo Gratis: 4 horas mensuales para invitar a un amigo a clase.",
         "Vacante Garantizada en el horario que necesites.",
-        "Premios Exclusivos: Polo, gorro y cuaderno gratis.",
-        "Reconocimiento: Foto en la 'Ruta de Honor' en nuestra página web."
+        "Premios Exclusivos: Polo, gorro y cuaderno gratis."
       ],
       "penalty": "Tras 6 meses sin matrícula, bajas solo 1 nivel, luego 1 nivel por mes.",
       "recoveries": "4 recuperaciones por mes sin justificación."
@@ -63571,7 +63574,7 @@ export const infoLevels = {
     },
     {
       "level": 45,
-      "reward": "Poncho/cambiador de microfibra gratis (precio regular: 70 soles)"
+      "reward": "Poncho/cambiador de microfibra gratis (precio regular: 75 soles)"
     }
   ],
   "rules": [
