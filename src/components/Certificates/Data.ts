@@ -63497,7 +63497,7 @@ export const infoLevels = {
   },
   "categories": [
     {
-      "name": "Tiburoncin Enano",
+      "name": "Tiburoncin Nemo",
       "levels": "0-9",
       "benefits": ["Sin beneficios específicos, pero estás en camino a algo grandioso."],
       "penalty": "Tras 2 meses sin matrícula, bajas 2 niveles, luego 1 nivel por mes."
